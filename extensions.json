@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "asciidoctor.asciidoctor-vscode",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "ecmel.vscode-html-css",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "timonwong.shellcheck",
+    "fvclaus.sort-json-array",
+    "vue.volar",
+    "johnpapa.angular-essentials",
+    "johnpapa.angular2",
+    "pkief.material-icon-theme",
+    "foxundermoon.shell-format",
+    "hediet.vscode-drawio",
+    "dsznajder.es7-react-js-snippets",
+    "ms-vscode-remote.remote-ssh",
+    "wayou.vscode-todo-highlight",
+    "ms-vscode-remote.remote-wsl"
+  ]
+}
