@@ -1,22 +1,16 @@
 {
-  "[html][typescript][javascript][css][scss][json][markdown]": {
-    "editor.codeActionsOnSave": {
-      "esbenp.prettier-vscode": "explicit",
-      "source.fixAll.eslint": "explicit"
-    }
-  },
-  "[python]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[shellscript]": {
-    "editor.defaultColorDecorators": "never",
-    "files.eol": "\n"
-  },
-  "[snippets]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.autoIndent": "full",
+  "editor.codeActionsOnSave": {
+    "esbenp.prettier-vscode": "explicit",
+    "source.fixAll.eslint": "never",
+    "source.organizeImports": "explicit",
+    "source.removeUnusedImports": "never"
+  },
+  "editor.lineNumbers": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "block",
@@ -42,10 +36,22 @@
   "files.exclude": {
     "**/node_modules": true
   },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.hg/store/**": true
+  },
   "git.confirmSync": false,
   "hediet.vscode-drawio.resizeImages": null,
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/bower_components": true,
+    "**/node_modules": true
+  },
   "search.showLineNumbers": true,
   "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.windows": "pwsh",
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "terminal.integrated.fontLigatures.enabled": true,
   "terminal.integrated.minimumContrastRatio": 1,
@@ -54,6 +60,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Monokai",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.panel.opensMaximized": "never",
   "workbench.sideBar.location": "right",
   "zenMode.centerLayout": false
 }
